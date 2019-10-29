@@ -1,6 +1,7 @@
 Use make.py to create the data sets. Run `make.py --help` for a list of avialble parameters.
 
 For example:
+
   python make.py -t 2 -d 4 -noise 0 -min_train_size 1 -max_train_size 10 -image_scale 10
   
 This configuration will create a training set of images containing object sized 240x240, 280x280, 320x320, 360x360 and 400x400 px. 
